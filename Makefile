@@ -2,7 +2,7 @@
 #CC=arm-none-eabi-gcc
 CC=clang++
 CCFLAGS=-Wall
-CCFLAGS+= -stdlib=libc++ -target arm64-apple-ios13.2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk
+CCFLAGS+= -stdlib=libc++ -target arm64-apple-ios13.2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk
 
 all:
 	$(CC) $(CCFLAGS) -c junk.cpp -o junk.o
