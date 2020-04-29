@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		022FBA1224491B3700AD0EFC /* wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 022FBA1124491B3700AD0EFC /* wrapper.cpp */; };
+		022FBA1224491B3700AD0EFC /* doNotDelete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 022FBA1124491B3700AD0EFC /* doNotDelete.cpp */; };
+		028B20E4245A098500065B68 /* combined_libjunk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 028B20E3245A098400065B68 /* combined_libjunk.a */; };
 		02F52A0724286FE1009FA898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F52A0624286FE1009FA898 /* AppDelegate.swift */; };
 		02F52A0924286FE1009FA898 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F52A0824286FE1009FA898 /* SceneDelegate.swift */; };
 		02F52A0B24286FE1009FA898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F52A0A24286FE1009FA898 /* ViewController.swift */; };
 		02F52A0E24286FE1009FA898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F52A0C24286FE1009FA898 /* Main.storyboard */; };
 		02F52A1024286FE3009FA898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F52A0F24286FE3009FA898 /* Assets.xcassets */; };
 		02F52A1324286FE3009FA898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F52A1124286FE3009FA898 /* LaunchScreen.storyboard */; };
-		52CD682F244A525600E4DB1A /* libjunk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CD682E244A525600E4DB1A /* libjunk.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		022FBA1124491B3700AD0EFC /* wrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wrapper.cpp; sourceTree = "<group>"; };
+		022FBA1124491B3700AD0EFC /* doNotDelete.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = doNotDelete.cpp; sourceTree = "<group>"; };
+		028B20E3245A098400065B68 /* combined_libjunk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = combined_libjunk.a; path = ../combined_libjunk.a; sourceTree = "<group>"; };
 		02F52A0324286FE1009FA898 /* iOS_Cpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Cpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F52A0624286FE1009FA898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02F52A0824286FE1009FA898 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		02F52A1224286FE3009FA898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02F52A1424286FE3009FA898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02F52A242428718F009FA898 /* iOS_Cpp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_Cpp-Bridging-Header.h"; sourceTree = "<group>"; };
-		52CD682E244A525600E4DB1A /* libjunk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjunk.a; path = ../libjunk.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52CD682F244A525600E4DB1A /* libjunk.a in Frameworks */,
+				028B20E4245A098500065B68 /* combined_libjunk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +71,7 @@
 				02F52A1124286FE3009FA898 /* LaunchScreen.storyboard */,
 				02F52A1424286FE3009FA898 /* Info.plist */,
 				02F52A242428718F009FA898 /* iOS_Cpp-Bridging-Header.h */,
-				022FBA1124491B3700AD0EFC /* wrapper.cpp */,
+				022FBA1124491B3700AD0EFC /* doNotDelete.cpp */,
 			);
 			path = iOS_Cpp;
 			sourceTree = "<group>";
@@ -79,7 +79,7 @@
 		02F52A1A2428700E009FA898 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				52CD682E244A525600E4DB1A /* libjunk.a */,
+				028B20E3245A098400065B68 /* combined_libjunk.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02F52A0B24286FE1009FA898 /* ViewController.swift in Sources */,
-				022FBA1224491B3700AD0EFC /* wrapper.cpp in Sources */,
+				022FBA1224491B3700AD0EFC /* doNotDelete.cpp in Sources */,
 				02F52A0724286FE1009FA898 /* AppDelegate.swift in Sources */,
 				02F52A0924286FE1009FA898 /* SceneDelegate.swift in Sources */,
 			);
